@@ -72,3 +72,11 @@ group :test do
 end
 
 gem "devise", "~> 4.8"
+
+gem "tailwindcss-rails", "~> 2.0"
+
+gem "repost", "~> 0.3.8"
+
+gem "simple_form", "~> 5.1"
+
+gem "letter_opener", "~> 1.8"
