@@ -16,7 +16,7 @@
 
   <% if action_name != "show" %>
     <%= link_to "Show this stuff", stuff, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-    
+    <%= link_to "Buy it Now", new_stuff_payment_path(stuff.id), class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
     <hr class="mt-6">
   <% end %>
 </div>

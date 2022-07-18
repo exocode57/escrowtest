@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  payer_email: MyString
+  payer_name: MyString
+  payer_address: MyString
+  payer_phone: MyString
+  stuff_id: 1
+
+two:
+  payer_email: MyString
+  payer_name: MyString
+  payer_address: MyString
+  payer_phone: MyString
+  stuff_id: 1
