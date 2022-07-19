@@ -37,7 +37,7 @@ class PaymentsController < ApplicationController
         product_description: @stuff.stuff_name,
         transaction_amount: @stuff.stuff_price,
         callback_url: "",
-        redirect_url: "",
+        redirect_url: "http://127.0.0.1:3010/redirectpage/statuspayment",
         token: "osjbg2SM9p1q4v-PyYqb",
         redirect_post: "true"
         
